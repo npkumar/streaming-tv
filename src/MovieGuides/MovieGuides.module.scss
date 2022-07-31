@@ -1,0 +1,13 @@
+.wrapper {
+    padding-top: 32px;
+    padding-bottom: 32px;
+
+    @media only screen and (min-width: 730px) {
+        padding-top: 48px;
+        padding-bottom: 48px;
+    }
+}
+
+.title {
+    padding-left: 16px;
+}

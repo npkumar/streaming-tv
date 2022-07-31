@@ -1,0 +1,23 @@
+.wrapper {
+    border-radius: 5%;
+    position: relative;
+    color: black;
+    overflow: hidden;
+    text-decoration: none !important;
+    min-width: 120px;
+    max-width: 170px;
+    margin-left: 1rem;
+    scroll-snap-align: center;
+    width: 40vw;
+
+    &:first-child {
+        margin-left: 0;
+    }
+
+    img {
+       border-radius: 2%;
+       &:hover {
+            border: 3px solid yellow;
+       }
+    }
+}

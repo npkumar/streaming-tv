@@ -1,0 +1,12 @@
+.backBtn {
+    position: absolute;
+    top: 0;
+    left: 32px;
+    z-index: 1;
+    border-radius: 100%;
+    padding: 4px 8px;
+
+    @media only screen and (max-width: 1200px) {
+        display: none;
+    }
+}

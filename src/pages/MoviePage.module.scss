@@ -1,0 +1,49 @@
+.header {
+    background-position: center top;
+    background-size: cover;
+    position: relative;
+    height: calc(100vh - 50px);
+    min-height: 455px;
+    background-color: #000;
+    background-repeat: no-repeat;
+}
+
+.title {
+    font-size: 24px;
+    
+    @media only screen and (min-width: 730px) {
+    font-size: 32px;
+    }
+    @media only screen and (min-width: 1140px) {
+    font-size: 48px;
+    }
+}
+
+    
+.headerBox {
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    display: block;
+    padding: 0 25px 120px;
+    width: 100%;
+}
+
+.trailerBtn {
+    color: black;
+    background-color: #ffe300;
+    width: 75%;
+    padding: 1rem;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    font-size: 16px;
+    @media only screen and (min-width: 730px) {
+        font-size: 24px;
+        width: 50%;
+    }
+    @media only screen and (min-width: 1140px) {
+        font-size: 24px;
+        width: 50%;
+    }
+}
